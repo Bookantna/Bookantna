@@ -54,7 +54,14 @@
 
 ---
 
-<!-- PROJECTS -->
+## 🚀 Featured Projects
+
+| | Project | Description | Stack |
+|:---:|---|---|---|
+| 🖥️ | [Screenie](https://github.com/Bookantna/Screenie) | Fast macOS screenshot & annotation tool — menu bar app with OCR, color picker, and pixel ruler | Swift 6 |
+| 🌸 | [Flower-Image-Colorization](https://github.com/Bookantna/Flower-Image-Colorization) | Deep learning model to colorize grayscale flower images | Python, PyTorch |
+| 🎫 | [ticketDorm](https://github.com/Bookantna/ticketDorm) | Web-based dorm maintenance request system built with SOLID principles | Java, Spring Boot |
+| ⚡ | [Multiprocessing](https://github.com/Bookantna/Multiprocessing) | Parallel image processing pipeline using Python multiprocessing | Python |
 
 ---
 
