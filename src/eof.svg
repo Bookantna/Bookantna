@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="t">
+<title id="t">End of disk</title>
+<style>
+/*FONTS*/
+.m{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="64" rx="18" fill="#121211"/>
+<rect x=".5" y=".5" width="1199" height="63" rx="17.5" fill="none" stroke="#2a2926"/>
+<g class="m" font-size="11" letter-spacing="1.4">
+  <text x="48" y="36" fill="#e2a03f">EOF<tspan fill="#6f6c65">  ·  0 BAD SECTORS  ·  THANKS FOR READING</tspan></text>
+  <text x="1138" y="36" text-anchor="end" fill="#5a5852">SET IN GEIST  ·  HAND-WRITTEN SVG</text>
+</g>
+<rect class="cur" x="1144" y="26" width="8" height="13" fill="#e2a03f"/>
+</svg>
