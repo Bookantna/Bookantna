@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="708" height="300" viewBox="0 0 708 300" role="img" aria-labelledby="t d">
+<title id="t">ticketDorm</title>
+<desc id="d">ticketDorm: a dorm maintenance request system, from report to repair. A layered Java Spring Boot service with JPA, built around SOLID principles.</desc>
+<style>
+/*FONTS*/
+.s{font-family:'Geist',ui-sans-serif,system-ui,sans-serif}
+.m{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+.rise{animation:rise 1s cubic-bezier(.16,1,.3,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.prog{transform-box:fill-box;transform-origin:0 50%;animation:prog 8s cubic-bezier(.65,0,.35,1) infinite both}
+@keyframes prog{0%,18%{transform:scaleX(0)}30%,52%{transform:scaleX(.5)}64%,92%{transform:none}100%{transform:scaleX(0)}}
+.st2{animation:st2 8s steps(1) infinite both}
+@keyframes st2{0%{opacity:0}30%{opacity:1}96%{opacity:0}}
+.st3{animation:st3 8s steps(1) infinite both}
+@keyframes st3{0%{opacity:0}64%{opacity:1}96%{opacity:0}}
+.ticket{animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.st2,.st3{opacity:1}}
+</style>
+<defs>
+  <mask id="notch">
+    <rect x="400" y="36" width="268" height="228" rx="12" fill="#fff"/>
+    <circle cx="400" cy="190" r="11" fill="#000"/><circle cx="668" cy="190" r="11" fill="#000"/>
+  </mask>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#050505" flood-opacity=".5"/>
+  </filter>
+</defs>
+<rect width="708" height="300" rx="20" fill="#121211"/>
+<rect x=".5" y=".5" width="707" height="299" rx="19.5" fill="none" stroke="#2a2926"/>
+
+<text class="m" x="40" y="54" font-size="11" letter-spacing="1.4" fill="#e2a03f">TRK 05<tspan fill="#6f6c65">  /  JAVA  ·  SPRING BOOT</tspan></text>
+<text class="s rise" x="38" y="104" font-size="34" font-weight="620" letter-spacing="-1.3" fill="#e9e6df">ticketDorm</text>
+<g class="s rise" style="animation-delay:.1s" font-size="15" fill="#bdb9b0">
+  <text x="40" y="140">Dorm maintenance requests, from report</text>
+  <text x="40" y="162">to repair. A layered Spring Boot service</text>
+  <text x="40" y="184">built around SOLID principles.</text>
+</g>
+<g class="m rise" style="animation-delay:.25s" font-size="10.5" letter-spacing="1" fill="#8a877f">
+  <rect x="40.5" y="236.5" width="98" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="89.5" y="253" text-anchor="middle">SPRING BOOT</text>
+  <rect x="146.5" y="236.5" width="48" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="170.5" y="253" text-anchor="middle">JPA</text>
+  <rect x="202.5" y="236.5" width="64" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="234.5" y="253" text-anchor="middle">SOLID</text>
+</g>
+
+<g class="ticket">
+  <g filter="url(#shadow)"><rect x="400" y="36" width="268" height="228" rx="12" fill="#ece7dc" mask="url(#notch)"/></g>
+  <path d="M416 190H652" stroke="#bdb5a5" stroke-dasharray="3 4"/>
+  <g class="m" font-size="9.5" letter-spacing="1.3" fill="#8a8377">
+    <text x="420" y="64">REQ #4217</text><text x="648" y="64" text-anchor="end">OPENED 08:42</text>
+  </g>
+  <text class="s" x="419" y="98" font-size="19" font-weight="620" letter-spacing="-.5" fill="#1d1c1a">Leaking faucet</text>
+  <text class="s" x="420" y="119" font-size="13" fill="#6b675e">Room B-214, 2nd floor  ·  Plumbing</text>
+
+  <rect x="430" y="146" width="204" height="2" fill="#cfc8b9"/>
+  <rect class="prog" x="430" y="146" width="204" height="2" fill="#c98a2e"/>
+  <circle cx="430" cy="147" r="5" fill="#c98a2e"/>
+  <circle cx="532" cy="147" r="5" fill="#ece7dc" stroke="#bdb5a5" stroke-width="1.2"/>
+  <circle class="st2" cx="532" cy="147" r="5" fill="#c98a2e"/>
+  <circle cx="634" cy="147" r="5" fill="#ece7dc" stroke="#bdb5a5" stroke-width="1.2"/>
+  <circle class="st3" cx="634" cy="147" r="5" fill="#c98a2e"/>
+  <g class="m" font-size="8.5" letter-spacing="1.1" fill="#8a8377">
+    <text x="424" y="171">OPEN</text><text x="532" y="171" text-anchor="middle">ASSIGNED</text><text x="640" y="171" text-anchor="end">RESOLVED</text>
+  </g>
+
+  <g class="m" font-size="9" letter-spacing="1.3" fill="#8a8377">
+    <text x="420" y="218">PRIORITY</text><text x="520" y="218">SLA</text><text x="600" y="218">FLOOR</text>
+  </g>
+  <g class="s" font-size="15" font-weight="560" fill="#1d1c1a">
+    <text x="420" y="240">Normal</text><text x="520" y="240">48 h</text><text x="600" y="240">2</text>
+  </g>
+</g>
+</svg>

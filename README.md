@@ -1,74 +1,44 @@
-<div align="center">
+<!-- Panels are hand-written SVGs in src/, built to assets/ by scripts/build.py -->
 
-# 👋 Hi, I'm Thanawat Ueasiripracha
+<p>
+  <img src="assets/header.svg" width="100%" alt="Thanawat Ueasiripracha. Aspiring data engineer, Computer Science at Khon Kaen University, manufacturing intern at Seagate." />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Aspiring+Data+Engineer;CS+Student+%40+Khon+Kaen+University;Manufacturing+Intern+%40+Seagate" alt="Typing SVG" />
+<p>
+  <img src="assets/stack.svg" width="100%" alt="Stack. Languages: Python, SQL, C/C++, Java. ML: PyTorch, TensorFlow, scikit-learn, LightGBM. Data: Pandas, NumPy, Jupyter, LangChain, FastAPI. Tools: Git, Docker, Spring Boot, Swift, VS Code. Databases: PostgreSQL, MySQL, SQLite, Oracle." />
+</p>
 
-<p>Python · SQL · ML · Deep Learning</p>
+<p>
+  <img src="assets/health.svg" width="100%" alt="Current focus: data pipelines and model evaluation. Building phishMe and Screenie. Ask me about data leakage and text-to-SQL agents. Contribution map for the last 52 weeks." />
+</p>
 
-</div>
+<p>
+  <img src="assets/tracks.svg" width="100%" alt="Selected work" />
+</p>
 
----
+<p>
+  <a href="https://github.com/Bookantna/phishMe"><img src="assets/track-phishme.svg" width="100%" alt="phishMe: leakage-aware phishing detection pipeline with an on-device Chrome model" /></a>
+</p>
 
-## 🛠️ Tech Stack
+<p>
+  <a href="https://github.com/Bookantna/Screenie"><img src="assets/track-screenie.svg" width="59%" alt="Screenie: menu-bar screenshot and annotation tool for macOS, Swift 6" /></a>
+  <a href="https://github.com/Bookantna/Flower-Image-Colorization"><img src="assets/track-flower.svg" width="40%" alt="Flower Image Colorization: conditional GAN that colorizes grayscale flowers" /></a>
+</p>
 
-**Languages:**
+<p>
+  <a href="https://github.com/Bookantna/Multiprocessing"><img src="assets/track-multiprocessing.svg" width="40%" alt="Multiprocessing: sequential vs. parallel image filtering in Python" /></a>
+  <a href="https://github.com/Bookantna/ticketDorm"><img src="assets/track-ticketdorm.svg" width="59%" alt="ticketDorm: dorm maintenance request system, Java Spring Boot" /></a>
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+<p>
+  <sub><code>ALSO ON THE BENCH</code>&nbsp;&nbsp;<a href="https://github.com/Bookantna/CSVSnap">CSVSnap</a> · <a href="https://github.com/Bookantna/chatbot">chatbot</a> · <a href="https://github.com/Bookantna/wifi-autologin">wifi-autologin</a> · <a href="https://github.com/Bookantna/free_reward">free_reward</a></sub>
+</p>
 
-**ML / Data:**
+<p>
+  <a href="https://www.linkedin.com/in/thanawatueasiripracha/"><img src="assets/link-linkedin.svg" width="49.5%" alt="LinkedIn: /in/thanawatueasiripracha" /></a>
+  <a href="mailto:thanawatueasiripracha@gmail.com"><img src="assets/link-email.svg" width="49.5%" alt="Email: thanawatueasiripracha@gmail.com" /></a>
+</p>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-**Tools:**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
-**Databases:**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Bookantna&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-| | Project | Description | Stack |
-|:---:|---|---|---|
-| 🖥️ | [Screenie](https://github.com/Bookantna/Screenie) | Fast macOS screenshot & annotation tool — menu bar app with OCR, color picker, and pixel ruler | Swift 6 |
-| 🌸 | [Flower-Image-Colorization](https://github.com/Bookantna/Flower-Image-Colorization) | Deep learning model to colorize grayscale flower images | Python, PyTorch |
-| 🎫 | [ticketDorm](https://github.com/Bookantna/ticketDorm) | Web-based dorm maintenance request system built with SOLID principles | Java, Spring Boot |
-| ⚡ | [Multiprocessing](https://github.com/Bookantna/Multiprocessing) | Parallel image processing pipeline using Python multiprocessing | Python |
-
----
-
-## 📬 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanawatueasiripracha/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thanawatueasiripracha@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bookantna)
-
-</div>
+<p>
+  <img src="assets/eof.svg" width="100%" alt="EOF" />
+</p>
