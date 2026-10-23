@@ -1,72 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="708" height="300" viewBox="0 0 708 300" role="img" aria-labelledby="t d">
-<title id="t">ticketDorm</title>
-<desc id="d">ticketDorm: a dorm maintenance request system, from report to repair. A layered Java Spring Boot service with JPA, built around SOLID principles.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="708" height="320" viewBox="0 0 708 320" role="img" aria-labelledby="t d">
+<title id="t">Episode 05: ticketDorm</title>
+<desc id="d">ticketDorm, in: the leaky faucet of room B-214. A dorm maintenance request system, from report to repair. A layered Java Spring Boot service with JPA, built around SOLID principles. Art: a dripping faucet, a ticket moving from open to assigned to resolved, and a fixed stamp.</desc>
 <style>
 /*FONTS*/
-.s{font-family:'Geist',ui-sans-serif,system-ui,sans-serif}
-.m{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
-.rise{animation:rise 1s cubic-bezier(.16,1,.3,1) both}
-@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.prog{transform-box:fill-box;transform-origin:0 50%;animation:prog 8s cubic-bezier(.65,0,.35,1) infinite both}
-@keyframes prog{0%,18%{transform:scaleX(0)}30%,52%{transform:scaleX(.5)}64%,92%{transform:none}100%{transform:scaleX(0)}}
-.st2{animation:st2 8s steps(1) infinite both}
-@keyframes st2{0%{opacity:0}30%{opacity:1}96%{opacity:0}}
-.st3{animation:st3 8s steps(1) infinite both}
-@keyframes st3{0%{opacity:0}64%{opacity:1}96%{opacity:0}}
-.ticket{animation:float 6s ease-in-out infinite}
-@keyframes float{50%{transform:translateY(-4px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}.st2,.st3{opacity:1}}
+.b{font-family:'Bangers',Impact,sans-serif}
+.c{font-family:'Comic Neue','Comic Sans MS',cursive;font-weight:700}
+.r{font-weight:400}
+.m{font-family:'Geist Mono',ui-monospace,monospace}
+.in{animation:in .6s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.drop{animation:drop 6s cubic-bezier(.55,0,1,.45) infinite}
+@keyframes drop{0%{transform:translateY(0);opacity:1}10%{transform:translateY(64px);opacity:1}11%,100%{transform:translateY(64px);opacity:0}}
+.d2{animation-delay:1s}.d3{animation-delay:2s}
+.drip{animation:drip 6s steps(1) infinite}
+@keyframes drip{0%,64%{opacity:1}65%,100%{opacity:0}}
+.prog{transform-box:fill-box;transform-origin:0 50%;animation:prog 6s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes prog{0%,8%{transform:scaleX(0)}30%,40%{transform:scaleX(.5)}62%,100%{transform:scaleX(1)}}
+.s1{animation:s1 6s steps(1) infinite}@keyframes s1{0%,100%{fill:#e4432d}}
+.s2{animation:s2 6s steps(1) infinite}@keyframes s2{0%,29%{fill:#fffaf0}30%,100%{fill:#e4432d}}
+.s3{animation:s3 6s steps(1) infinite}@keyframes s3{0%,61%{fill:#fffaf0}62%,100%{fill:#e4432d}}
+.fixed{transform-origin:600px 236px;animation:fixed 6s cubic-bezier(.34,1.56,.64,1) infinite both}
+@keyframes fixed{0%,64%{opacity:0;transform:rotate(-12deg) scale(2)}72%,95%{opacity:1;transform:rotate(-12deg)}100%{opacity:0;transform:rotate(-12deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<defs>
-  <mask id="notch">
-    <rect x="400" y="36" width="268" height="228" rx="12" fill="#fff"/>
-    <circle cx="400" cy="190" r="11" fill="#000"/><circle cx="668" cy="190" r="11" fill="#000"/>
-  </mask>
-  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
-    <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#050505" flood-opacity=".5"/>
-  </filter>
-</defs>
-<rect width="708" height="300" rx="20" fill="#121211"/>
-<rect x=".5" y=".5" width="707" height="299" rx="19.5" fill="none" stroke="#2a2926"/>
+<rect width="708" height="320" rx="6" fill="#fffaf0"/>
+<rect x="3" y="3" width="702" height="314" rx="6" fill="none" stroke="#1d1a16" stroke-width="6"/>
 
-<text class="m" x="40" y="54" font-size="11" letter-spacing="1.4" fill="#e2a03f">TRK 05<tspan fill="#6f6c65">  /  JAVA  ·  SPRING BOOT</tspan></text>
-<text class="s rise" x="38" y="104" font-size="34" font-weight="620" letter-spacing="-1.3" fill="#e9e6df">ticketDorm</text>
-<g class="s rise" style="animation-delay:.1s" font-size="15" fill="#bdb9b0">
-  <text x="40" y="140">Dorm maintenance requests, from report</text>
-  <text x="40" y="162">to repair. A layered Spring Boot service</text>
-  <text x="40" y="184">built around SOLID principles.</text>
+<rect x="26" y="26" width="138" height="30" fill="#1d1a16"/>
+<text class="m" x="40" y="46" font-size="12" font-weight="700" letter-spacing="2" fill="#f7c548">EPISODE 05</text>
+<text class="m" x="176" y="46" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#1d1a16" opacity=".6">JAVA / SPRING BOOT</text>
+<g class="in">
+  <text class="b" x="24" y="114" font-size="58" letter-spacing="2" fill="#f7c548" stroke="#1d1a16" stroke-width="6" stroke-linejoin="round" paint-order="stroke">TICKETDORM</text>
+  <text class="c" x="26" y="142" font-size="16" fill="#e4432d">IN: THE LEAKY FAUCET OF B-214</text>
 </g>
-<g class="m rise" style="animation-delay:.25s" font-size="10.5" letter-spacing="1" fill="#8a877f">
-  <rect x="40.5" y="236.5" width="98" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="89.5" y="253" text-anchor="middle">SPRING BOOT</text>
-  <rect x="146.5" y="236.5" width="48" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="170.5" y="253" text-anchor="middle">JPA</text>
-  <rect x="202.5" y="236.5" width="64" height="25" rx="12.5" fill="none" stroke="#3b3a36"/><text x="234.5" y="253" text-anchor="middle">SOLID</text>
+<g class="c r in" style="animation-delay:.12s" font-size="15.5" fill="#1d1a16">
+  <text x="26" y="174">Dorm maintenance requests, from</text>
+  <text x="26" y="196">report to repair. A layered Spring</text>
+  <text x="26" y="218">Boot service built around SOLID.</text>
+</g>
+<g class="in c" style="animation-delay:.3s" font-size="14" text-anchor="middle">
+  <rect x="30" y="250" width="116" height="34" rx="17" fill="#1d1a16"/><rect x="26" y="246" width="116" height="34" rx="17" fill="#f7c548" stroke="#1d1a16" stroke-width="3"/><text x="84" y="268">Spring Boot</text>
+  <rect x="158" y="250" width="60" height="34" rx="17" fill="#1d1a16"/><rect x="154" y="246" width="60" height="34" rx="17" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/><text x="184" y="268">JPA</text>
+  <rect x="230" y="250" width="72" height="34" rx="17" fill="#1d1a16"/><rect x="226" y="246" width="72" height="34" rx="17" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/><text x="262" y="268">SOLID</text>
 </g>
 
-<g class="ticket">
-  <g filter="url(#shadow)"><rect x="400" y="36" width="268" height="228" rx="12" fill="#ece7dc" mask="url(#notch)"/></g>
-  <path d="M416 190H652" stroke="#bdb5a5" stroke-dasharray="3 4"/>
-  <g class="m" font-size="9.5" letter-spacing="1.3" fill="#8a8377">
-    <text x="420" y="64">REQ #4217</text><text x="648" y="64" text-anchor="end">OPENED 08:42</text>
-  </g>
-  <text class="s" x="419" y="98" font-size="19" font-weight="620" letter-spacing="-.5" fill="#1d1c1a">Leaking faucet</text>
-  <text class="s" x="420" y="119" font-size="13" fill="#6b675e">Room B-214, 2nd floor  ·  Plumbing</text>
+<!-- art -->
+<rect x="384" y="26" width="298" height="268" fill="#f4ecd6"/>
+<!-- faucet -->
+<path d="M384 58H452Q476 58 476 82V92H456V84Q456 78 450 78H384Z" fill="#d9cdb0" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+<rect x="404" y="44" width="22" height="14" rx="3" fill="#e4432d" stroke="#1d1a16" stroke-width="3.5"/>
+<g class="drip">
+  <path class="drop" d="M466 96Q472 106 466 110Q460 106 466 96Z" fill="#1d1a16"/>
+  <path class="drop d2" d="M466 96Q472 106 466 110Q460 106 466 96Z" fill="#1d1a16"/>
+  <path class="drop d3" d="M466 96Q472 106 466 110Q460 106 466 96Z" fill="#1d1a16"/>
+  <text class="b" x="490" y="108" font-size="24" letter-spacing="1.5" fill="#1d1a16" transform="rotate(-6 490 108)">DRIP...</text>
+</g>
+<ellipse cx="466" cy="182" rx="26" ry="6" fill="#1d1a16" opacity=".18"/>
 
-  <rect x="430" y="146" width="204" height="2" fill="#cfc8b9"/>
-  <rect class="prog" x="430" y="146" width="204" height="2" fill="#c98a2e"/>
-  <circle cx="430" cy="147" r="5" fill="#c98a2e"/>
-  <circle cx="532" cy="147" r="5" fill="#ece7dc" stroke="#bdb5a5" stroke-width="1.2"/>
-  <circle class="st2" cx="532" cy="147" r="5" fill="#c98a2e"/>
-  <circle cx="634" cy="147" r="5" fill="#ece7dc" stroke="#bdb5a5" stroke-width="1.2"/>
-  <circle class="st3" cx="634" cy="147" r="5" fill="#c98a2e"/>
-  <g class="m" font-size="8.5" letter-spacing="1.1" fill="#8a8377">
-    <text x="424" y="171">OPEN</text><text x="532" y="171" text-anchor="middle">ASSIGNED</text><text x="640" y="171" text-anchor="end">RESOLVED</text>
-  </g>
-
-  <g class="m" font-size="9" letter-spacing="1.3" fill="#8a8377">
-    <text x="420" y="218">PRIORITY</text><text x="520" y="218">SLA</text><text x="600" y="218">FLOOR</text>
-  </g>
-  <g class="s" font-size="15" font-weight="560" fill="#1d1c1a">
-    <text x="420" y="240">Normal</text><text x="520" y="240">48 h</text><text x="600" y="240">2</text>
+<!-- ticket -->
+<g transform="rotate(3 590 200)">
+  <path d="M520 134H668V266H520V214A10 10 0 0 0 520 194Z" fill="#fffaf0" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M540 134V266" stroke="#1d1a16" stroke-width="2" stroke-dasharray="4 4"/>
+  <text class="m" x="552" y="154" font-size="10" font-weight="700" letter-spacing="1" fill="#1d1a16" opacity=".6">REQ #4217</text>
+  <text class="b" x="552" y="178" font-size="20" letter-spacing="1" fill="#1d1a16">LEAKY FAUCET</text>
+  <text class="c" x="552" y="196" font-size="11.5" fill="#1d1a16">Room B-214 / plumbing</text>
+  <rect x="556" y="218" width="96" height="6" rx="3" fill="#1d1a16" opacity=".15"/>
+  <rect class="prog" x="556" y="218" width="96" height="6" rx="3" fill="#e4432d"/>
+  <g stroke="#1d1a16" stroke-width="2.5"><circle class="s1" cx="556" cy="221" r="6"/><circle class="s2" cx="604" cy="221" r="6"/><circle class="s3" cx="652" cy="221" r="6"/></g>
+  <g class="m" font-size="7.5" font-weight="700" letter-spacing=".5" fill="#1d1a16">
+    <text x="552" y="244">OPEN</text><text x="604" y="244" text-anchor="middle">ASSIGNED</text><text x="660" y="244" text-anchor="end">FIXED</text>
   </g>
 </g>
+<g class="fixed">
+  <rect x="540" y="214" width="120" height="46" rx="5" fill="#fffaf0" fill-opacity=".75" stroke="#e4432d" stroke-width="4.5"/>
+  <text class="b" x="600" y="248" text-anchor="middle" font-size="32" letter-spacing="2" fill="#e4432d">FIXED!</text>
+</g>
+<rect x="384" y="26" width="298" height="268" fill="none" stroke="#1d1a16" stroke-width="5"/>
 </svg>

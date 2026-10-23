@@ -1,82 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
-<title id="t">phishMe</title>
-<desc id="d">phishMe: a leakage-aware phishing detection pipeline. 46,786 de-duplicated rows split 28,068 / 9,356 / 9,362, disjoint by registrable domain. Paired bootstrap with 10,000 resamples. The linear model runs on-device in a Chrome extension under a 25 MB and 250 ms p95 budget.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="t d">
+<title id="t">Episode 01: phishMe</title>
+<desc id="d">phishMe, the case of the too-perfect benchmark. A leakage-aware phishing detection pipeline: 46,786 de-duplicated rows split 28,068 / 9,356 / 9,362, disjoint by registrable domain, paired bootstrap with 10,000 resamples, and a linear model that runs on-device in a Chrome extension under 25 MB and 250 ms p95. Art: a fishing hook dangles a fake login card and a red stamp slams down: phish, 0.94.</desc>
 <style>
 /*FONTS*/
-.s{font-family:'Geist',ui-sans-serif,system-ui,sans-serif}
-.m{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
-.rise{animation:rise 1s cubic-bezier(.16,1,.3,1) both}
-@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.seg{transform-box:fill-box;transform-origin:0 50%;animation:grow 1.2s cubic-bezier(.16,1,.3,1) both}
+.b{font-family:'Bangers',Impact,sans-serif}
+.c{font-family:'Comic Neue','Comic Sans MS',cursive;font-weight:700}
+.r{font-weight:400}
+.m{font-family:'Geist Mono',ui-monospace,monospace}
+.in{animation:in .6s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.seg{transform-box:fill-box;transform-origin:0 50%;animation:grow 1s cubic-bezier(.16,1,.3,1) both}
 @keyframes grow{from{transform:scaleX(0)}to{transform:none}}
-.feed{animation:feed 21s linear infinite}
-@keyframes feed{to{transform:translateY(-210px)}}
+.sway{transform-origin:920px 26px;animation:sway 3.4s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.stamp{transform-origin:990px 262px;animation:stamp 4.2s cubic-bezier(.34,1.56,.64,1) infinite both}
+@keyframes stamp{0%,30%{opacity:0;transform:rotate(-14deg) scale(2.2)}40%,92%{opacity:1;transform:rotate(-14deg) scale(1)}100%{opacity:0;transform:rotate(-14deg) scale(1)}}
+.fish{animation:fish 2.2s ease-in-out infinite}
+@keyframes fish{50%{transform:translate(6px,-5px)}}
+.waves{animation:waves 5s linear infinite}
+@keyframes waves{to{transform:translateX(-60px)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <defs>
-  <clipPath id="win"><rect x="680" y="128" width="472" height="164" rx="10"/></clipPath>
-  <linearGradient id="vfade" x1="0" y1="128" x2="0" y2="292" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff"/>
-    <stop offset=".78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
-  </linearGradient>
-  <mask id="vmask"><rect x="680" y="128" width="472" height="164" fill="url(#vfade)"/></mask>
+  <pattern id="htr" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="4" cy="4" r="2.2" fill="#e4432d"/></pattern>
+  <pattern id="hty" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="4.5" cy="4.5" r="2.5" fill="#f7c548"/></pattern>
+  <clipPath id="art"><rect x="668" y="26" width="504" height="338"/></clipPath>
 </defs>
-<rect width="1200" height="340" rx="22" fill="#121211"/>
-<rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#2a2926"/>
+<rect width="1200" height="390" rx="6" fill="#fffaf0"/>
+<rect x="3" y="3" width="1194" height="384" rx="6" fill="none" stroke="#1d1a16" stroke-width="6"/>
 
-<!-- left: copy -->
-<g class="m" font-size="11" letter-spacing="1.4">
-  <text x="48" y="58" fill="#e2a03f">TRK 01<tspan fill="#6f6c65">  /  FEATURED  ·  PYTHON  ·  LIGHTGBM  ·  CHROME MV3</tspan></text>
+<!-- copy -->
+<rect x="30" y="26" width="138" height="32" fill="#1d1a16"/>
+<text class="m" x="44" y="47" font-size="12" font-weight="700" letter-spacing="2" fill="#f7c548">EPISODE 01</text>
+<text class="m" x="184" y="47" font-size="11" font-weight="600" letter-spacing="1.6" fill="#1d1a16" opacity=".6">PYTHON / LIGHTGBM / CHROME MV3</text>
+<g class="in">
+  <text class="b" x="28" y="128" font-size="78" letter-spacing="2" fill="#f7c548" stroke="#1d1a16" stroke-width="7" stroke-linejoin="round" paint-order="stroke">PHISHME</text>
+  <text class="c" x="30" y="160" font-size="18" fill="#e4432d">IN: THE CASE OF THE TOO-PERFECT BENCHMARK</text>
 </g>
-<text class="s rise" x="46" y="112" font-size="40" font-weight="620" letter-spacing="-1.6" fill="#e9e6df">phishMe</text>
-<g class="m rise" style="animation-delay:.1s">
-  <rect x="216" y="88" width="148" height="24" rx="12" fill="none" stroke="#3b3a36"/>
-  <text x="290" y="104" text-anchor="middle" font-size="10" letter-spacing="1.3" fill="#8a877f">RESEARCH PROTOTYPE</text>
+<g class="c r in" style="animation-delay:.12s" font-size="16.5" fill="#1d1a16">
+  <text x="30" y="196">A phishing model aced its own benchmark. Our hero asked:</text>
+  <text x="30" y="220">does it still work on data it has never seen? A leakage-aware</text>
+  <text x="30" y="244">pipeline, plus a linear model that scores on-device in Chrome.</text>
 </g>
-<g class="s rise" style="animation-delay:.15s" font-size="16.5" fill="#bdb9b0">
-  <text x="48" y="152">Does a model that looks near-perfect on its own benchmark</text>
-  <text x="48" y="177">still work on data it has never seen? A leakage-aware</text>
-  <text x="48" y="202">phishing pipeline, with a linear model that scores on-device.</text>
+
+<!-- split -->
+<g stroke="#1d1a16" stroke-width="3.5">
+  <rect class="seg" style="animation-delay:.3s" x="30" y="264" width="356" height="20" fill="#e4432d"/>
+  <rect class="seg" style="animation-delay:.45s" x="386" y="264" width="118" height="20" fill="#f7c548"/>
+  <rect class="seg" style="animation-delay:.6s" x="504" y="264" width="118" height="20" fill="#fffaf0"/>
 </g>
-<path d="M48 232H624" stroke="#232321"/>
-<g class="rise" style="animation-delay:.3s">
-  <g class="m" font-size="22" fill="#e9e6df" letter-spacing="-.4">
-    <text x="48" y="272">46,786</text><text x="196" y="272">10,000</text><text x="344" y="272">≤25<tspan font-size="13" fill="#8a877f"> MB</tspan></text><text x="474" y="272">≤250<tspan font-size="13" fill="#8a877f"> ms</tspan></text>
+<g class="m" font-size="11" font-weight="600" fill="#1d1a16">
+  <text x="30" y="302">TRAIN 28,068</text><text x="392" y="302">VAL 9,356</text><text x="510" y="302">TEST 9,362</text>
+  <text x="372" y="302" text-anchor="end" opacity=".55">DISJOINT BY DOMAIN</text>
+</g>
+
+<!-- stats -->
+<g class="in" style="animation-delay:.5s">
+  <g stroke="#1d1a16" stroke-width="3.5">
+    <rect x="30" y="316" width="140" height="48" fill="#f7c548"/>
+    <rect x="178" y="316" width="140" height="48" fill="#fffaf0"/>
+    <rect x="326" y="316" width="140" height="48" fill="#fffaf0"/>
+    <rect x="474" y="316" width="148" height="48" fill="#1d1a16"/>
   </g>
-  <g class="m" font-size="10" letter-spacing="1.2" fill="#6f6c65">
-    <text x="48" y="294">ROWS, DEDUPED</text><text x="196" y="294">BOOTSTRAP DRAWS</text><text x="344" y="294">MODEL PAYLOAD</text><text x="474" y="294">P95 SCORING</text>
+  <g class="b" font-size="27" letter-spacing="1">
+    <text x="42" y="348" fill="#1d1a16">46,786</text>
+    <text x="190" y="348" fill="#e4432d">10,000</text>
+    <text x="338" y="348" fill="#e4432d">≤25MB</text>
+    <text x="486" y="348" fill="#f7c548">≤250MS</text>
+  </g>
+  <g class="m" font-size="8.5" font-weight="700" letter-spacing="1" fill="#1d1a16">
+    <text x="164" y="331" text-anchor="end">ROWS</text>
+    <text x="312" y="331" text-anchor="end">DRAWS</text>
+    <text x="460" y="331" text-anchor="end">MODEL</text>
+    <text x="616" y="331" text-anchor="end" fill="#fffaf0">P95</text>
   </g>
 </g>
 
-<!-- right: split bar -->
-<text class="m" x="680" y="58" font-size="10" letter-spacing="1.3" fill="#6f6c65">SPLIT  ·  DISJOINT BY REGISTRABLE DOMAIN</text>
-<g>
-  <rect class="seg" style="animation-delay:.3s" x="680" y="72" width="278.4" height="10" rx="2" fill="#e2a03f"/>
-  <rect class="seg" style="animation-delay:.45s" x="962.4" y="72" width="92.8" height="10" rx="2" fill="#6f6c65"/>
-  <rect class="seg" style="animation-delay:.6s" x="1059.2" y="72" width="92.8" height="10" rx="2" fill="#3b3a36"/>
-</g>
-<g class="m rise" style="animation-delay:.7s" font-size="11" fill="#8a877f">
-  <text x="680" y="102">train <tspan fill="#e9e6df">28,068</tspan></text>
-  <text x="962.4" y="102">val <tspan fill="#e9e6df">9,356</tspan></text>
-  <text x="1059.2" y="102">test <tspan fill="#e9e6df">9,362</tspan></text>
-</g>
+<!-- art -->
+<g clip-path="url(#art)">
+  <rect x="668" y="26" width="504" height="338" fill="#f4ecd6"/>
+  <path d="{{RAYS 920 150 40 520 40 23}}" fill="#1d1a16" opacity=".08"/>
+  <g class="waves">
+    <path d="M660 300q15-10 30 0t30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0 30 0V370H660Z" fill="url(#hty)" stroke="#1d1a16" stroke-width="3.5"/>
+  </g>
+  <g class="fish">
+    <path d="M700 262L676 244V282Z" fill="#e4432d" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+    <ellipse cx="746" cy="262" rx="50" ry="30" fill="#e4432d" stroke="#1d1a16" stroke-width="4.5"/>
+    <path d="M730 238Q746 228 762 238" fill="none" stroke="#1d1a16" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="774" cy="256" r="9" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/>
+    <circle cx="777" cy="257" r="3.5" fill="#1d1a16"/>
+    <path d="M764 244L786 250" stroke="#1d1a16" stroke-width="4" stroke-linecap="round"/>
+    <path d="M782 274Q790 276 794 270" fill="none" stroke="#1d1a16" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <path d="M694 218C694 196 716 186 748 186C780 186 800 196 800 214C800 232 778 240 750 240L738 254L740 240C712 238 694 232 694 218Z" fill="#fffaf0" stroke="#1d1a16" stroke-width="3.5" stroke-linejoin="round"/>
+  <text class="c" x="747" y="210" text-anchor="middle" font-size="13" fill="#1d1a16">totally legit</text>
+  <text class="c" x="747" y="227" text-anchor="middle" font-size="13" fill="#1d1a16">link, trust me</text>
 
-<!-- right: live scoring feed -->
-<rect x="680" y="128" width="472" height="164" rx="10" fill="#0c0c0b"/>
-<g clip-path="url(#win)" mask="url(#vmask)">
-  <g class="feed m" font-size="12">
-    <g id="rows">
-      <text x="700" y="160" fill="#c9c5bc">verify-wallet.top/claim</text><text x="1068" y="160" text-anchor="end" fill="#e9e6df">0.94</text><text x="1132" y="160" text-anchor="end" fill="#e2a03f" font-size="10" letter-spacing="1.2">PHISH</text>
-      <text x="700" y="190" fill="#c9c5bc">docs.python.org/3/library</text><text x="1068" y="190" text-anchor="end" fill="#e9e6df">0.02</text><text x="1132" y="190" text-anchor="end" fill="#6f6c65" font-size="10" letter-spacing="1.2">OK</text>
-      <text x="700" y="220" fill="#c9c5bc">secure-l0gin.app/session</text><text x="1068" y="220" text-anchor="end" fill="#e9e6df">0.88</text><text x="1132" y="220" text-anchor="end" fill="#e2a03f" font-size="10" letter-spacing="1.2">PHISH</text>
-      <text x="700" y="250" fill="#c9c5bc">github.com/Bookantna</text><text x="1068" y="250" text-anchor="end" fill="#e9e6df">0.01</text><text x="1132" y="250" text-anchor="end" fill="#6f6c65" font-size="10" letter-spacing="1.2">OK</text>
-      <text x="700" y="280" fill="#c9c5bc">bit.ly/3xQ7aKe</text><text x="1068" y="280" text-anchor="end" fill="#e9e6df">0.57</text><text x="1132" y="280" text-anchor="end" fill="#bdb9b0" font-size="10" letter-spacing="1.2">REVIEW</text>
-      <text x="700" y="310" fill="#c9c5bc">parcel-redelivery.cc/th/track</text><text x="1068" y="310" text-anchor="end" fill="#e9e6df">0.91</text><text x="1132" y="310" text-anchor="end" fill="#e2a03f" font-size="10" letter-spacing="1.2">PHISH</text>
-      <text x="700" y="340" fill="#c9c5bc">kku.ac.th/en</text><text x="1068" y="340" text-anchor="end" fill="#e9e6df">0.04</text><text x="1132" y="340" text-anchor="end" fill="#6f6c65" font-size="10" letter-spacing="1.2">OK</text>
+  <g class="sway">
+    <path d="M920 26V150" stroke="#1d1a16" stroke-width="2.5"/>
+    <path d="M920 148V166Q920 178 908 176Q900 174 902 164" fill="none" stroke="#1d1a16" stroke-width="4" stroke-linecap="round"/>
+    <g transform="rotate(3 920 230)">
+      <rect x="830" y="172" width="188" height="126" rx="8" fill="#fffaf0" stroke="#1d1a16" stroke-width="4.5"/>
+      <path d="M830 180a8 8 0 0 1 8-8h172a8 8 0 0 1 8 8v18H830Z" fill="#1d1a16"/>
+      <text class="m" x="842" y="190" font-size="10.5" font-weight="600" fill="#fffaf0">verify-wallet.top/claim</text>
+      <text class="b" x="842" y="222" font-size="18" letter-spacing="1" fill="#1d1a16">SIGN IN TO CLAIM</text>
+      <rect x="842" y="230" width="164" height="16" rx="3" fill="none" stroke="#1d1a16" stroke-width="2.5"/>
+      <rect x="842" y="252" width="164" height="16" rx="3" fill="none" stroke="#1d1a16" stroke-width="2.5"/>
+      <text class="m" x="848" y="263" font-size="10" fill="#1d1a16" opacity=".6">••••••••</text>
+      <rect x="842" y="274" width="70" height="16" rx="3" fill="#f7c548" stroke="#1d1a16" stroke-width="2.5"/>
     </g>
-    <use href="#rows" y="210"/>
+  </g>
+  <g class="stamp">
+    <rect x="910" y="230" width="160" height="64" rx="6" fill="#fffaf0" fill-opacity=".7" stroke="#e4432d" stroke-width="5"/>
+    <text class="b" x="990" y="268" text-anchor="middle" font-size="36" letter-spacing="2" fill="#e4432d">PHISH!</text>
+    <text class="m" x="990" y="286" text-anchor="middle" font-size="12" font-weight="800" letter-spacing="2" fill="#e4432d">SCORE 0.94</text>
+  </g>
+  <g class="b" fill="#f7c548" stroke="#1d1a16" stroke-width="5" stroke-linejoin="round" paint-order="stroke" letter-spacing="1.5">
+    <text x="1040" y="96" font-size="40" transform="rotate(10 1040 96)">KA-</text>
+    <text x="1060" y="136" font-size="40" transform="rotate(10 1060 136)">THUNK!</text>
   </g>
 </g>
-<rect x="680.5" y="128.5" width="471" height="163" rx="9.5" fill="none" stroke="#2a2926"/>
-<text class="m" x="680" y="316" font-size="10" letter-spacing="1.3" fill="#5a5852">ILLUSTRATIVE FEED  ·  CROSS-DATASET RESULTS DO NOT YET GENERALIZE</text>
+<rect x="668" y="314" width="504" height="50" fill="#1d1a16"/>
+<g class="c" font-size="13.5" fill="#fffaf0">
+  <text x="684" y="335"><tspan fill="#f7c548">ILLUSTRATIVE. PLOT TWIST:</tspan> cross-dataset results</text>
+  <text x="684" y="353">don't generalize yet. To be continued...</text>
+</g>
+<rect x="668" y="26" width="504" height="338" fill="none" stroke="#1d1a16" stroke-width="5"/>
 </svg>

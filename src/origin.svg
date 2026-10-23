@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+<title id="t">Previously, the origin story</title>
+<desc id="d">A four-panel comic strip. Panel one: Khon Kaen, 2 a.m., a laptop reads accuracy 99.7 percent and the hero thinks: too good, suspicious. Panel two: the Seagate arc, a manufacturing internship next to a spinning platter. Panel three: one week ago, the arc is complete and a hard drive sidekick follows the hero home. Panel four: Season 2 begins.</desc>
+<style>
+/*FONTS*/
+.b{font-family:'Bangers',Impact,sans-serif}
+.c{font-family:'Comic Neue','Comic Sans MS',cursive;font-weight:700}
+.m{font-family:'Geist Mono',ui-monospace,monospace}
+.p{animation:p .6s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes p{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.p2{animation-delay:.18s}.p3{animation-delay:.36s}.p4{animation-delay:.54s}
+.cur{animation:cur 1s steps(1) infinite}
+@keyframes cur{50%{opacity:0}}
+.think{animation:think 2.4s ease-in-out infinite}
+@keyframes think{50%{transform:translateY(-4px)}}
+.spin{transform-origin:520px 212px;animation:spin 1.6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.arm{transform-origin:640px 300px;animation:seek 3.2s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes seek{0%,100%{transform:rotate(0)}30%{transform:rotate(-14deg)}60%{transform:rotate(-6deg)}}
+.shake{animation:shake .5s steps(2) infinite}
+@keyframes shake{0%{transform:translate(0,0)}50%{transform:translate(1.5px,-1px)}}
+.hop{animation:hop 1.1s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes hop{50%{transform:translateY(-7px)}}
+.rays{transform-origin:1052px 220px;animation:rays 30s linear infinite}
+@keyframes rays{to{transform:rotate(360deg)}}
+.zoom{transform-origin:1052px 205px;animation:zoom 2s ease-in-out infinite}
+@keyframes zoom{50%{transform:scale(1.06) rotate(-2deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <pattern id="htk" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="3.5" cy="3.5" r="1.4" fill="#1d1a16"/></pattern>
+  <pattern id="htr" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="4" cy="4" r="2.2" fill="#e4432d"/></pattern>
+  <pattern id="hty" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="4.5" cy="4.5" r="2.4" fill="#f7c548"/></pattern>
+  <clipPath id="c1"><rect x="16" y="56" width="372" height="358"/></clipPath>
+  <clipPath id="c2"><rect x="402" y="56" width="300" height="358"/></clipPath>
+  <clipPath id="c3"><rect x="716" y="56" width="214" height="358"/></clipPath>
+  <clipPath id="c4"><path d="M962 56H1184V414H944Z"/></clipPath>
+</defs>
+<rect width="1200" height="430" rx="6" fill="#fffaf0"/>
+<text class="b" x="18" y="40" font-size="26" letter-spacing="1.5" fill="#1d1a16">PREVIOUSLY ON <tspan fill="#e4432d">BOOKANTNA...</tspan></text>
+<text class="m" x="1184" y="36" text-anchor="end" font-size="11" font-weight="600" letter-spacing="2" fill="#1d1a16" opacity=".55">THE ORIGIN STORY  /  PAGE 2</text>
+
+<!-- PANEL 1: 2 a.m. -->
+<g class="p">
+<g clip-path="url(#c1)">
+  <rect x="16" y="56" width="372" height="358" fill="#2a2620"/>
+  <rect x="16" y="56" width="372" height="358" fill="url(#htk)" opacity=".6"/>
+  <!-- window + moon -->
+  <rect x="40" y="100" width="100" height="96" fill="#3a352d" stroke="#1d1a16" stroke-width="4"/>
+  <circle cx="104" cy="136" r="20" fill="#f7c548"/><circle cx="115" cy="128" r="18" fill="#3a352d"/>
+  <path d="M90 100V196M40 148H140" stroke="#1d1a16" stroke-width="4"/>
+  <!-- desk -->
+  <path d="M16 330H388V414H16Z" fill="#1d1a16"/>
+  <g transform="translate(104 0)">
+  <!-- laptop glow -->
+  <path d="M120 330L60 180H300L240 330Z" fill="#f7c548" opacity=".14"/>
+  <path d="M110 214H250L262 330H98Z" fill="#d9cdb0" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="120" y="224" width="120" height="84" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/>
+  <g class="m" font-size="10" font-weight="700" fill="#1d1a16"><text x="128" y="244">&gt;&gt;&gt; model.score()</text></g>
+  <text class="m" x="180" y="282" text-anchor="middle" font-size="25" font-weight="800" fill="#e4432d">99.7%</text>
+  <rect class="cur" x="128" y="292" width="7" height="10" fill="#1d1a16"/>
+  <path d="M84 330H276L284 342H76Z" fill="#a89e86" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <!-- hero, from behind -->
+  <path d="M28 414C30 360 56 336 92 330L142 330C176 336 200 360 204 414Z" fill="#f7c548" stroke="#1d1a16" stroke-width="4.5"/>
+  <path d="M74 300C64 266 76 240 98 232L94 212L114 226L120 202L136 222L152 204L156 228L176 220L170 242C186 256 188 286 176 310C164 336 88 336 74 300Z" fill="#1d1a16"/>
+  <path d="M74 296l-12-2M176 296l12-2" stroke="#1d1a16" stroke-width="4" stroke-linecap="round"/>
+  <!-- thought -->
+  <g class="think">
+    <circle cx="208" cy="194" r="5" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/>
+    <circle cx="222" cy="174" r="8" fill="#fffaf0" stroke="#1d1a16" stroke-width="3"/>
+  </g>
+</g>
+<!-- caption + thought cloud above the clip so they can overlap the frame -->
+<rect x="16" y="56" width="168" height="34" fill="#f7c548" stroke="#1d1a16" stroke-width="4"/>
+<text class="c" x="28" y="79" font-size="15" fill="#1d1a16">KHON KAEN. 2 A.M.</text>
+<g class="think">
+  <path d="M160 108C160 92 180 84 196 90C204 76 232 74 244 86C258 76 284 80 288 98C304 100 310 118 300 128C310 140 300 158 282 156C276 170 252 172 240 162C226 174 198 170 194 156C176 160 160 148 166 134C152 128 152 112 160 108Z" fill="#fffaf0" stroke="#1d1a16" stroke-width="4" stroke-linejoin="round"/>
+  <text class="c" x="230" y="120" text-anchor="middle" font-size="15" fill="#1d1a16">...too good.</text>
+  <text class="b" x="230" y="146" text-anchor="middle" font-size="22" letter-spacing="1" fill="#e4432d">SUSPICIOUS.</text>
+</g>
+<rect x="16" y="56" width="372" height="358" fill="none" stroke="#1d1a16" stroke-width="5"/>
+</g>
+
+<!-- PANEL 2: the Seagate arc -->
+<g class="p p2">
+<g clip-path="url(#c2)">
+  <rect x="402" y="56" width="300" height="358" fill="#f4ecd6"/>
+  <path d="{{RAYS 520 212 60 420 44 3}}" fill="#1d1a16" opacity=".14"/>
+  <g class="shake">
+    <circle cx="520" cy="212" r="104" fill="#1d1a16"/>
+    <circle cx="520" cy="212" r="96" fill="#d9cdb0" stroke="#1d1a16" stroke-width="4"/>
+    <g class="spin" fill="none" stroke="#1d1a16">
+      <circle cx="520" cy="212" r="84" stroke-width="1.5" opacity=".35"/>
+      <circle cx="520" cy="212" r="70" stroke-width="5" stroke="#e4432d" stroke-dasharray="40 30 12 200 50 108"/>
+      <circle cx="520" cy="212" r="56" stroke-width="1.5" opacity=".35"/>
+      <circle cx="520" cy="212" r="84" stroke-width="5" stroke="#e4432d" stroke-dasharray="20 90 60 360" opacity=".7"/>
+      <path d="M520 128V160M520 264V296M436 212H468M572 212H604" stroke-width="3" opacity=".4"/>
+    </g>
+    <circle cx="520" cy="212" r="26" fill="#fffaf0" stroke="#1d1a16" stroke-width="4"/>
+    <circle cx="520" cy="212" r="7" fill="#1d1a16"/>
+    <g class="arm">
+      <path d="M640 300L566 196" stroke="#1d1a16" stroke-width="14" stroke-linecap="round"/>
+      <path d="M640 300L566 196" stroke="#a89e86" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="640" cy="300" r="20" fill="#d9cdb0" stroke="#1d1a16" stroke-width="4"/>
+      <circle cx="640" cy="300" r="6" fill="#1d1a16"/>
+    </g>
+  </g>
+  <g class="b" fill="#f7c548" stroke="#1d1a16" stroke-width="5" stroke-linejoin="round" paint-order="stroke" letter-spacing="2">
+    <text x="584" y="136" font-size="34" transform="rotate(14 584 136)">WHIRR</text>
+  </g>
+</g>
+<rect x="402" y="56" width="248" height="34" fill="#f7c548" stroke="#1d1a16" stroke-width="4"/>
+<text class="c" x="414" y="79" font-size="15" fill="#1d1a16">THEN CAME THE SEAGATE ARC.</text>
+<rect x="414" y="340" width="276" height="62" fill="#fffaf0" stroke="#1d1a16" stroke-width="4"/>
+<g class="c" font-size="14.5" fill="#1d1a16">
+  <text x="426" y="364">Manufacturing intern. Real factory,</text>
+  <text x="426" y="386">real data, real platters at 7,200 RPM.</text>
+</g>
+<rect x="402" y="56" width="300" height="358" fill="none" stroke="#1d1a16" stroke-width="5"/>
+</g>
+
+<!-- PANEL 3: one week ago -->
+<g class="p p3">
+<g clip-path="url(#c3)">
+  <rect x="716" y="56" width="214" height="358" fill="#f7c548"/>
+  <rect x="716" y="56" width="214" height="358" fill="url(#htr)" opacity=".35"/>
+  <path d="M716 340H930V414H716Z" fill="#e5d8b5" stroke="#1d1a16" stroke-width="4"/>
+  <g class="hop">
+    <path d="M806 318L800 344M832 318L838 344" stroke="#1d1a16" stroke-width="5" stroke-linecap="round"/>
+    <rect x="772" y="184" width="96" height="136" rx="10" fill="#d9cdb0" stroke="#1d1a16" stroke-width="5"/>
+    <circle cx="820" cy="232" r="32" fill="#efe6cf" stroke="#1d1a16" stroke-width="4"/>
+    <circle cx="820" cy="232" r="7" fill="#1d1a16"/>
+    <path d="M806 284a5 5 0 1 0 0 .1M834 284a5 5 0 1 0 0 .1" stroke="#1d1a16" stroke-width="4"/>
+    <path d="M808 300Q820 310 832 300" fill="none" stroke="#1d1a16" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- tiny graduation cap -->
+    <path d="M820 152L862 168L820 184L778 168Z" fill="#1d1a16"/>
+    <path d="M800 176V190H840V176" fill="#1d1a16"/>
+    <path d="M862 168V194" stroke="#e4432d" stroke-width="3"/><circle cx="862" cy="196" r="4" fill="#e4432d"/>
+  </g>
+  <g class="b" fill="#fffaf0" stroke="#1d1a16" stroke-width="5" stroke-linejoin="round" paint-order="stroke" letter-spacing="1.5">
+    <text x="730" y="152" font-size="30" transform="rotate(-10 730 152)">*CLICK*</text>
+  </g>
+</g>
+<rect x="716" y="56" width="166" height="34" fill="#fffaf0" stroke="#1d1a16" stroke-width="4"/>
+<text class="c" x="728" y="79" font-size="15" fill="#1d1a16">ONE WEEK AGO...</text>
+<rect x="728" y="352" width="190" height="52" fill="#fffaf0" stroke="#1d1a16" stroke-width="4"/>
+<g class="c" font-size="14" fill="#1d1a16">
+  <text x="738" y="374">Arc complete. The drive</text>
+  <text x="738" y="394">followed me home.</text>
+</g>
+<rect x="716" y="56" width="214" height="358" fill="none" stroke="#1d1a16" stroke-width="5"/>
+</g>
+
+<!-- PANEL 4: season 2 -->
+<g class="p p4">
+<g clip-path="url(#c4)">
+  <rect x="940" y="56" width="244" height="358" fill="#e4432d"/>
+  <g class="rays"><path d="{{RAYS 1052 220 30 340 40 11}}" fill="#f7c548" opacity=".9"/></g>
+  <path d="{{BURST 1052 220 70 118 14 5}}" fill="#fffaf0" stroke="#1d1a16" stroke-width="5" stroke-linejoin="round"/>
+  <g class="zoom">
+    <g class="b" text-anchor="middle" fill="#e4432d" stroke="#1d1a16" stroke-width="6" stroke-linejoin="round" paint-order="stroke" letter-spacing="1">
+      <text x="1052" y="206" font-size="44">SEASON</text>
+      <text x="1052" y="268" font-size="78" fill="#f7c548">2</text>
+    </g>
+  </g>
+</g>
+<rect x="972" y="56" width="128" height="34" fill="#fffaf0" stroke="#1d1a16" stroke-width="4"/>
+<text class="c" x="984" y="79" font-size="15" fill="#1d1a16">AND NOW...</text>
+<rect x="976" y="352" width="196" height="52" fill="#1d1a16" stroke="#1d1a16" stroke-width="4"/>
+<g class="c" font-size="14" fill="#fffaf0">
+  <text x="988" y="374">New issue with every</text>
+  <text x="988" y="394">commit. <tspan fill="#f7c548">Read on.</tspan></text>
+</g>
+<path d="M962 56H1184V414H944Z" fill="none" stroke="#1d1a16" stroke-width="5" stroke-linejoin="round"/>
+</g>
+</svg>
