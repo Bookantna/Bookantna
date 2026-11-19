@@ -35,10 +35,6 @@
 </p>
 
 <p>
-  <sub><code>BONUS SHORTS</code>&nbsp;&nbsp;<a href="https://github.com/Bookantna/CSVSnap">CSVSnap</a> · <a href="https://github.com/Bookantna/chatbot">chatbot</a> · <a href="https://github.com/Bookantna/wifi-autologin">wifi-autologin</a> · <a href="https://github.com/Bookantna/free_reward">free_reward</a></sub>
-</p>
-
-<p>
   <a href="https://www.linkedin.com/in/thanawatueasiripracha/"><img src="assets/link-linkedin.svg" width="49.5%" alt="LinkedIn: /in/thanawatueasiripracha" /></a>
   <a href="mailto:thanawatueasiripracha@gmail.com"><img src="assets/link-email.svg" width="49.5%" alt="Email: thanawatueasiripracha@gmail.com" /></a>
 </p>
